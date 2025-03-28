@@ -133,4 +133,6 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Bind to 0.0.0.0 and specify the port 10000 for Render
+    app.run(host='0.0.0.0', port=10000, debug=True)
+
