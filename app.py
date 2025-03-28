@@ -7,7 +7,9 @@ import numpy as np
 from datetime import datetime
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
+CORS(app, origins=["https://timely-babka-f98200.netlify.app"])
+
 
 # API Keys
 OPENCAGE_API_KEY = "ad7eb287720940e2897103b45aecdf85"
