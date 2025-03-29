@@ -56,6 +56,10 @@ def get_weather(lat, lon, date):
 
 import random
 
+@app.route("/")
+def home():
+    return "<h1>Welcome to the Flood Prediction Backend</h1><p>API is up and running!</p>"
+
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.json
