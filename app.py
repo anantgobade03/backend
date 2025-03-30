@@ -8,7 +8,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 # CORS(app)
-CORS(app, origins=["https://timely-babka-f98200.netlify.app"])
+CORS(app, origins=["https://delicate-clafoutis-aee5c0.netlify.app"])
 
 
 # API Keys
